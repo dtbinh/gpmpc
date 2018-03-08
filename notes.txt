@@ -1,0 +1,17 @@
+29/09/2015
+
+From the simulation of 'demo_pgp_quad_2.m',
+the results for xy_trans subsystems are not good,
+probably, because xy_trans are related to u_x, u_y as well as u_1.
+
+
+
+06/10/2015
+
+%active-set   sqp  interior-point  trust-region-reflective
+% options = optimoptions('fmincon','Algorithm','active-set '); 
+%     p0 = policy.p;
+%     u0 = unwrap(p0);
+%     Ulimit = zeros(1, numel(u0))+Inf;
+%     [optp, fval] = fmincon(@(p) nvalue(p, mu0Sim(:, i), S0Sim(:,:,i), dynmodel, policy,...
+%         plant, cost, H, traject), u0, [], [], [], [], -Ulimit, Ulimit, [], options);
