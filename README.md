@@ -1,7 +1,7 @@
 # gpmpc
 gaussian process model predictive control in MATLAB
 
---------------------------------------------------------------------------------------------
+===========================================================
 
 > This code is developed for the personal use initially
 > My coding style is no-style
